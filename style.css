@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    background-color: #F5F8FF;
 
 }
 
@@ -52,6 +53,14 @@ header {
     border-radius: 10px;
 }
 
+.button:hover {
+    background-color: gold;
+    color: black;
+    cursor: pointer;
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
 .banner {
     display: flex;
     flex-direction: column;
@@ -81,7 +90,7 @@ header {
 .action p {
     font-size: 24px;
     font-weight: normal;
-    color: #252432;
+    color: #25243280;;
 }
 
 .action h1 {
@@ -121,4 +130,121 @@ header {
     margin: 0;
     font-size: 80px;
 
+}
+
+.UserBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 137px 150px;
+
+}
+
+.users {
+    border: 1px solid #F2EDED;
+    padding: 25px;
+    gap: 24px;
+    border-radius: 14px;
+
+}
+
+.users h1 {
+    font-size: 42px;
+
+}
+
+.avatar {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+
+
+}
+
+.userAvater {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.userAvaterh4 {
+    color: #757575;
+}
+
+.userAvater p,
+h4 {
+    color: #B3B3B3;
+}
+
+.UserReview {
+    display: flex;
+    align-items: center;
+    justify-content: space between;
+    gap: 20px;
+
+}
+.Focus img{
+    width: 840px ;
+    height: 364.77px;
+    border-radius: 48px;
+    margin-top: 20px;
+    
+
+}
+.Focus {
+background-color:#FFFFFF;
+border-radius: 14px;
+margin: 150px 137px;
+padding: 71px 150px;
+}
+.focus-container{
+    display: flex;
+  flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.focus-container p{
+margin-top: 0;
+color: #00000080;
+}
+.Touch{
+display: flex;
+justify-content: center;
+justify-content: space-between;
+margin: 92px 150px 14px 150px; 
+
+}
+.Touch h1{
+    font-size: 97px;
+
+}
+.TouchInput {
+    display: flex;
+    flex-direction: column;
+
+}
+.TouchInput input{
+    width:497px ;
+    height:70px ;
+    border-radius: 10px;
+    margin-bottom: 19px ;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.TouchInput textarea{
+    box-sizing: border-box;
+    width: 497px;
+    height:135px ;
+    border-radius: 10px;
+    font-size: 20px;
+   padding: 20px 32px ;   
+    
+}
+.TouchInput button{
+    width:497px ;
+    height:60px ;
+    border-radius: 10px;
+    margin-top: 10px;
 }
