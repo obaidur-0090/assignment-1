@@ -242,6 +242,7 @@ h4 {
     margin-bottom: 19px;
     margin-top: 10px;
     font-size: 20px;
+    border: none;
     
 }
 
@@ -252,6 +253,7 @@ h4 {
     border-radius: 10px;
     font-size: 20px;
     padding: 20px 32px;
+    border: none;
 
 }
 
