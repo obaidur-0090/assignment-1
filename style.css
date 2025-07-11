@@ -90,7 +90,8 @@ header {
 .action p {
     font-size: 24px;
     font-weight: normal;
-    color: #25243280;;
+    color: #25243280;
+    ;
 }
 
 .action h1 {
@@ -184,67 +185,104 @@ h4 {
     gap: 20px;
 
 }
-.Focus img{
-    width: 840px ;
+
+.Focus img {
+    width: 840px;
     height: 364.77px;
     border-radius: 48px;
     margin-top: 20px;
-    
+
 
 }
+
 .Focus {
-background-color:#FFFFFF;
-border-radius: 14px;
-margin: 150px 137px;
-padding: 71px 150px;
+    background-color: #FFFFFF;
+    border-radius: 14px;
+    margin: 150px 137px;
+    padding: 71px 150px;
 }
-.focus-container{
+
+.focus-container {
     display: flex;
-  flex-direction: column;
+    flex-direction: column;
     align-items: center;
     text-align: center;
     justify-content: center;
 }
-.focus-container p{
-margin-top: 0;
-color: #00000080;
+
+.focus-container p {
+    margin-top: 0;
+    color: #00000080;
 }
-.Touch{
-display: flex;
-justify-content: center;
-justify-content: space-between;
-margin: 92px 150px 14px 150px; 
+
+.Touch {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin: 92px 150px 14px 150px;
+    padding-bottom: 71px;
 
 }
-.Touch h1{
+
+.Touch h1 {
     font-size: 97px;
 
 }
+
 .TouchInput {
     display: flex;
     flex-direction: column;
 
 }
-.TouchInput input{
-    width:497px ;
-    height:70px ;
+
+.TouchInput input {
+    width: 497px;
+    height: 70px;
     border-radius: 10px;
-    margin-bottom: 19px ;
+    margin-bottom: 19px;
     margin-top: 10px;
     font-size: 20px;
-}
-.TouchInput textarea{
-    box-sizing: border-box;
-    width: 497px;
-    height:135px ;
-    border-radius: 10px;
-    font-size: 20px;
-   padding: 20px 32px ;   
     
 }
-.TouchInput button{
-    width:497px ;
-    height:60px ;
+
+.TouchInput textarea {
+    box-sizing: border-box;
+    width: 497px;
+    height: 135px;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 20px 32px;
+
+}
+
+.TouchInput button {
+    width: 497px;
+    height: 60px;
     border-radius: 10px;
     margin-top: 10px;
+}
+
+.footer{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    background-color: #FFFFFF;
+    padding: 104px 455px;
+    color: #8987A1;
+
+}
+.footer h1{
+ font-size: 100px;
+ color: #4E47FF;
+ margin: 0;
+ 
+}
+
+.footerNav {
+display: flex;
+list-style: none;
+justify-content: space-between;
+margin-top: 20px;
+cursor: pointer;
 }
